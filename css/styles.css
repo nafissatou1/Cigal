@@ -182,11 +182,12 @@ background: #a879bc;
 }
 #produits hr{
   width: 100px;
+  background: #ccc;
 }
 #produits h3{
   font-weight: 100px;
   padding-top: 50px;
-  color: rgb(116, 114, 122);
+  color: rgb(213, 149, 65);
  
 }
 #produits p{
@@ -194,6 +195,62 @@ background: #a879bc;
   padding-top: 10px;  
 }
 
+/*contact*/
+
+#contact{
+  margin-top: 100px;
+}
+#contact h1{
+  color: #838189;
+  text-align: center;
+  font-weight: 100;
+}
+#contact hr{
+  width: 100px;
+  background: #000;
+  margin-bottom: 50px;
+}
+.map h3, .message h3{
+  font-weight: 100px;
+  color: #838189;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 200;
+}
+
+.map h3{
+  padding-right: 300px;
+}
+
+.message form{
+  background: #74727a;
+  width: 400px;
+  height: 400px;
+  padding: 20px;
+}
+
+.message label{
+  color: #ffca90;
+  font-weight: 100px;
+}
+
+
+.message button.button_1{
+   background-color: #ffca90;
+  border-color: #ffca90;
+  opacity: 0.8;
+  border-radius: 0;
+  width: 100px;
+  height: 40px;
+  padding: 0;
+  color: #ffffff;
+
+}
+
+iframe{
+  width: 400px;
+  height: 400px;
+}
 
 
 
