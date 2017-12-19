@@ -12,7 +12,7 @@ body{
   overflow-x: hidden;
 }
 
-div.showcase{
+#showcase{
   width: 100%;
   height: 100vh;
    background: url(../img/showcase.jpg);
@@ -26,7 +26,7 @@ div.showcase{
 }
 
 
-.showcase div.container{
+#showcase div.container{
   padding-top: 10%;
   text-align: center;
   padding-left: 5%;
@@ -34,26 +34,26 @@ div.showcase{
   padding-bottom: 10%;
 }
 
-.showcase div.container h1{
+#showcase div.container h1{
   color: rgb(19, 19, 20);
   font-size: 5em;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
 }
-.showcase div.container h2{
+#showcase div.container h2{
   color: rgb(19, 19, 20);
   font-size: 3em;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
 }
 
-.showcase div.container p{
+#showcase div.container p{
   color: #ffffff;
   font-size: 1.5em;
   font-weight: 100;
 
 }
-.showcase div.container .btn{
+#showcase div.container .btn{
   background-color: rgb(213, 149, 65);
   border-color: rgb(213, 149, 65);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -337,27 +337,27 @@ button.navbar-toggle .icon-bar{
   padding-top: 10px;
   }
   
-  .showcase div.container h1{
+  #showcase div.container h1{
   color: rgb(19, 19, 20);
   font-size: 3em;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   margin-top: 50px;
 }
-.showcase div.container h2{
+#showcase div.container h2{
   color: rgb(19, 19, 20);
   font-size: 2em;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
 }
 
-.showcase div.container p{
+#showcase div.container p{
   color: #ffffff;
   font-size: 1em;
   font-weight: 100;
 
 }
-.showcase div.container .btn{
+#showcase div.container .btn{
   background-color: rgb(213, 149, 65);
   border-color: rgb(213, 149, 65);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
