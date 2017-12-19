@@ -1,6 +1,7 @@
 
 html{
   width: 100%;
+  margin: 0;
   overflow-x: hidden;
 }
 body{
@@ -70,11 +71,7 @@ div.showcase{
   min-height: 8%;
 }
 
-.brand-name{
-width: 150px;
-height: 150px;
-background: #a879bc;
-}
+
 .navbar .navbar-text {
   color: #ecf0f1;
 }
@@ -92,6 +89,12 @@ background: #a879bc;
 .navbar .navbar-nav .nav-item.show .nav-link:focus {
   color: rgb(213, 149, 65);
 }
+
+.navbar .navbar-nav .nav-item .nav-link:hover, .navbar .navbar-nav .nav-item .nav-link:focus{
+  background-color: rgb(19, 19, 20);
+}
+
+
 .navbar .navbar-toggle {
   border-color: #a879bc;
 }
@@ -154,28 +157,40 @@ background: #a879bc;
 }
 
 /* mission */
+
 #mission{
-  margin-top: 50px;
-  margin-bottom: 100px;
-  padding-left: 200px;
-  padding-right: 200px;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  background: linear-gradient(to top right, #a9a6b2 0%, #ffca90 100%);;
+  background: #ffffff;
+}
+
+#mission div.container-fluid{
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 70px;
+  
+}
+
+#mission div.body{
+   background: linear-gradient(to top right, #a9a6b2 0%, #ffca90 100%);
+    text-align: center;
   color: #ffffff;
   height: 350px;
-
 }
 #mission h1{
   font-size: 35px;
   font-weight: 100;
-  text-align: center;
   margin-bottom: 0;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 50px;
   }
 
 #mission p{
-  text-align: center;
   font-weight: 100;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-bottom: 50px;
 }
 #mission hr{
   width: 100px;
@@ -186,6 +201,9 @@ background: #a879bc;
 /*produits*/
 #produits{
   text-align: center;
+}
+#produits .container{
+  padding-top: 70px;
 }
 #produits h1{
   margin-bottom: 0;
@@ -210,6 +228,9 @@ background: #a879bc;
 
 #contact{
   margin-top: 100px;
+}
+#contact .container{
+  padding-top: 70px;
 }
 #contact h1{
   color: #838189;
@@ -285,12 +306,32 @@ iframe{
     color: #ecdbff;
     background-color: #a879bc;
   }
-  #mission{
+  .navbar .navbar-nav .nav-item .nav-link:hover, .navbar .navbar-nav .nav-item .nav-link:focus{
+  background-color: rgb(19, 19, 20);
+}
+
+
+button.navbar-toggle.collapsed{
+  width: 30px;
+  height: 30px;
+  border: 2px solid rgba(213, 149, 65, 0.5);
+  border-radius: 5px;
+  background: transparent;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+button.navbar-toggle.collapsed .icon-bar{
+  border: 1px solid rgba(213, 149, 65, 0.5);
+  display: block;
+  margin-bottom: 3px;
+
+  }
+
+  #mission h1, #mission p{
     padding-left: 30px;
   padding-right: 30px;
   padding-top: 10px;
-
   }
+  
   .showcase div.container h1{
   color: rgb(19, 19, 20);
   font-size: 3em;
@@ -327,6 +368,7 @@ iframe{
 }
 
 
+
 @media (max-width: 767px) {
   .navbar-expand-md .navbar-nav .show {
     color: #ecf0f1;
@@ -339,7 +381,9 @@ iframe{
     color: #ecdbff;
     background-color: #a879bc;
   }
-
+  .navbar .navbar-nav .nav-item .nav-link:hover, .navbar .navbar-nav .nav-item .nav-link:focus{
+  background-color: rgb(19, 19, 20);
+}
 }
 
 @media (max-width: 991px) {
@@ -354,6 +398,9 @@ iframe{
     color: #ecdbff;
     background-color: #a879bc;
   }
+  .navbar .navbar-nav .nav-item .nav-link:hover, .navbar .navbar-nav .nav-item .nav-link:focus{
+  background-color: rgb(19, 19, 20);
+}
 }
 
 @media (max-width: 1199px) {
@@ -379,5 +426,8 @@ iframe{
 .navbar-expand .navbar-nav .show.active {
   color: #ecdbff;
   background-color: #a879bc;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover, .navbar .navbar-nav .nav-item .nav-link:focus{
+  background-color: rgb(19, 19, 20);
 }
 }
