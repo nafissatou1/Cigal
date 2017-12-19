@@ -285,7 +285,9 @@ iframe{
 }
 
 
-
+button.navbar-toggle{
+  display: none;
+}
 
 
 
@@ -311,20 +313,23 @@ iframe{
 }
 
 
-button.navbar-toggle.collapsed{
+button.navbar-toggle{
   width: 30px;
   height: 30px;
-  border: 2px solid rgba(213, 149, 65, 0.5);
   border-radius: 5px;
   background: transparent;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: inherit !important;
 }
-button.navbar-toggle.collapsed .icon-bar{
-  border: 1px solid rgba(213, 149, 65, 0.5);
-  display: block;
-  margin-bottom: 3px;
 
+button.navbar-toggle .icon-bar{
+  border: 2px solid rgba(213, 149, 65, 0.5);
+  display: block !important;
+  margin-bottom: 3px;
   }
+  button.navbar-toggle.collapsed{
+ border: 2px solid rgba(213, 149, 65, 0.5);
+}
 
   #mission h1, #mission p{
     padding-left: 30px;
